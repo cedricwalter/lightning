@@ -1,7 +1,6 @@
 # Bitcoin Lightning
 
-!\[logo\]  
-\([https://raw.githubusercontent.com/cedricwalter/lightning/master/Logo\_of\_Lightning\_Bitcoin.png](https://raw.githubusercontent.com/cedricwalter/lightning/master/Logo_of_Lightning_Bitcoin.png)\)
+![](.gitbook/assets/logo_of_lightning_bitcoin.png) 
 
 ## What is lightning
 
