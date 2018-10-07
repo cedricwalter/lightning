@@ -1,5 +1,8 @@
 # Bitcoin Lightning
 
+!\[logo\]  
+\([https://raw.githubusercontent.com/cedricwalter/lightning/master/Logo\_of\_Lightning\_Bitcoin.png](https://raw.githubusercontent.com/cedricwalter/lightning/master/Logo_of_Lightning_Bitcoin.png)\)
+
 ## What is lightning
 
 Lightning Bitcoin \(LBTC\) is a fully decentralized Internet-of-value protocol for global payments. The specific applications include peer-to-peer transactions and exchange platforms. Any users that operate on the LBTC protocol can enjoy instant, secure and nearly free global financial transactions of any size.
