@@ -1,3 +1,10 @@
+---
+description: >-
+  With the well known GPIO-Pins of the RaspberryPi, low-cost entry point and its
+  rich hardware extension ecosystem it seems like the perfect device to foster
+  the communities creativity.
+---
+
 # RaspberryPi 3
 
 ## Notable implementation
