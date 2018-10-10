@@ -8,13 +8,11 @@ description: Lightning node using bitcoin testnet under ubuntu
 
 Get Ubuntu from [http://releases.ubuntu.com/16.04/ubuntu-16.04.5-server-amd64.iso](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-server-amd64.iso)
 
-**Do not use now the latest 18.04, some dependencies with bitcoind would not allow you to continue!**
-
 ## **Install Ubuntu**
 
 ### VMware \(All\) / VirtualBox \(all - OSS\) / Hyper-V \(microsoft only\)
 
-You can run Ubuntu by using one of the above virtualization software. Requirements are to be able to :
+You can run Ubuntu by using one of the above virtualization software. Requirements are to be able to:
 
 * install  a 64 bits operating system and 
 * Use a disk at least of 500GB to 1TB.
@@ -25,17 +23,22 @@ Install VMware player \(Free\) or VMware Workstation Pro \(not Free\)
 
 Start VMWare, and select "New virtual machine" or use CTRL-N
 
+
+
+In terminal you may still have the wrong keyboard layout and timezone \(bug in vmware installer!?\), select the right keyboard by running again and the right timezone \(e.g. zurich\)
+
+`sudo dpkg-reconfigure keyboard-configuration  
+sudo dpkg-reconfigure tzdata`
+
 ## Bitcoind
 
 #### Installation {#installation}
 
-
+Get the latest release binary from [https://github.com/bitcoin/bitcoin/releases](https://github.com/bitcoin/bitcoin/releases) as of today the 0.17.0 at [https://bitcoincore.org/bin/bitcoin-core-0.17.0/bitcoin-0.17.0-x86\_64-linux-gnu.tar.gz](https://bitcoincore.org/bin/bitcoin-core-0.17.0/bitcoin-0.17.0-x86_64-linux-gnu.tar.gz)
 
 ```text
-wget 
-sudo apt-add-repository ppa:bitcoin/bitcoin
-sudo apt-get update
-sudo apt-get install bitcoind
+wget https://bitcoincore.org/bin/bitcoin-core-0.17.0/bitcoin-0.17.0-x86_64-linux-gnu.tar.gz
+tar xvf bitcoin-0.17.0-x86_64-linux-gnu.tar.gz
 ```
 
 #### Configuration {#configuration}
@@ -47,6 +50,7 @@ mkdir ~/.bitcoin
 Create a new file _~/.bitcoin/bitcoin.conf_ :
 
 ```text
+vi ~/.bitcoin/bitcoin.conf
 testnet=1
 txindex=1
 server=1
@@ -55,12 +59,14 @@ zmqpubrawblock=tcp://127.0.0.1:18501
 zmqpubrawtx=tcp://127.0.0.1:18501
 rpcuser=myLogin
 rpcpassword=myPassword
+
+ESC then :wq
 ```
 
 #### Start Bitcoin and synchronize the blockchain {#lancement-et-synchronisation-de-la-blockchain}
 
 ```text
-bitcoind
+nohup ./bitcoind &
 ```
 
 You can tail this file to check the status, be patient, as of today you'll need to synchronize a bit more than 220 GB
