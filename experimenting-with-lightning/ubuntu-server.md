@@ -100,10 +100,11 @@ ESC then :wq
 #### Start Bitcoin and synchronize the blockchain {#lancement-et-synchronisation-de-la-blockchain}
 
 ```text
-nohup ./bitcoind &
+cd bitcoin-0.17/bin/
+./bitcoind
 ```
 
-You can tail this file to check the status, be patient, as of today you'll need to synchronize a bit more than 220 GB
+You can also tail this file to check the status, be patient, as of today you'll need to synchronize a bit more than 220 GB
 
 ```text
 tail -f ~/.bitcoin/testnet3/debug.log
