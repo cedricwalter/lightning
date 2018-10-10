@@ -4,7 +4,7 @@
 
 #### Global Scale Payment Network
 
-Scaling Bitcoin network to millions of more users
+Lightning will allow Bitcoin network to scale to millions of more users.
 
 #### Micropayments
 
@@ -12,7 +12,7 @@ The benefit of Lightning is that it enables high frequency micro-micro transacti
 
 #### Machine-to-Machine Payments
 
-Automating opening of channels between machines
+Lightning will let machine open channels automatically between machines.
 
 #### "streaming money"
 

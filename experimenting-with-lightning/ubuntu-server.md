@@ -23,7 +23,41 @@ Install VMware player \(Free\) or VMware Workstation Pro \(not Free\)
 
 Start VMWare, and select "New virtual machine" or use CTRL-N
 
+![select typical](../.gitbook/assets/step1.png)
 
+![select the ISO downloaded previously](../.gitbook/assets/step2.png)
+
+![choose a username and a safe password!](../.gitbook/assets/step3.png)
+
+![Select a Location that should be able to store a 500 GB to 1 TB](../.gitbook/assets/step4.png)
+
+![Bitcoin Blockchain is currently 220 GB, select 500 to 1 TB](../.gitbook/assets/step5.png)
+
+![You can customize hardware now, more memory? more cpu? the more the better but it is not needed.](../.gitbook/assets/step7.png)
+
+![Select your language](../.gitbook/assets/step8.png)
+
+![Select now Install Ubuntu](../.gitbook/assets/step9.png)
+
+![Click Done \(tab or enter\)](../.gitbook/assets/step10.png)
+
+![Click Done \(tab or enter\)](../.gitbook/assets/step11.png)
+
+![Click Done \(tab or enter\)](../.gitbook/assets/step12.png)
+
+![Select &quot;Use entire disk&quot;](../.gitbook/assets/step13.png)
+
+![Click Enter](../.gitbook/assets/step14.png)
+
+![Click Done \(tab or enter\)](../.gitbook/assets/step15.png)
+
+![Select Continue](../.gitbook/assets/step16.png)
+
+![Complete the form, Click Done \(tab or enter\)](../.gitbook/assets/step17.png)
+
+![You don&apos;t need any of these software, just Click Done \(tab or enter\)](../.gitbook/assets/step18.png)
+
+![Select Reboot now](../.gitbook/assets/step19.png)
 
 In terminal you may still have the wrong keyboard layout and timezone \(bug in vmware installer!?\), select the right keyboard by running again and the right timezone \(e.g. zurich\)
 
