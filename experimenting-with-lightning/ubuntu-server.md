@@ -6,7 +6,7 @@ description: Lightning node using bitcoin testnet under ubuntu
 
 ## Ubuntu
 
-Get Ubuntu from [http://releases.ubuntu.com/16.04/ubuntu-16.04.5-server-amd64.iso](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-server-amd64.iso)
+Get Ubuntu 18.04.1 LTS from [http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso](http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso)
 
 ## **Install Ubuntu**
 
