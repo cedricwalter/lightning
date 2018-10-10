@@ -4,7 +4,19 @@ description: Lightning node using bitcoin testnet under ubuntu
 
 # Ubuntu server
 
-### Bitcoind {#bitcoind}
+## Ubuntu
+
+Get Ubuntu from [http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso](http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso)
+
+**Do not use now the latest 18.04, some unmet dependencies with bitcoind would not allow you to continue!**
+
+## **Install Ubuntu**
+
+### VMware / VirtualBox / others
+
+You can virtualize Ubuntu by using one of the above virtualization software. Requirements are to be able to define a 64 bits operating system and at least 500 to 1TB of disk.
+
+## Bitcoind
 
 #### Installation {#installation}
 
@@ -52,7 +64,7 @@ You can also copy the state of another node by moving file from
 
 ### Lnd {#lnd}
 
-#### Prérequisites {#prérequis}
+#### Prerequisites {#prérequis}
 
 Install Go and GIT
 
